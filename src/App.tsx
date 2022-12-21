@@ -4,6 +4,7 @@ import {FirstScreen} from "./screens/FirstScreen";
 import {Brands} from "./screens/Brands";
 import {Products} from "./screens/Products";
 import {Collections} from "./screens/Collections";
+import {Seller} from "./screens/Seller";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Brands/>
         <Products/>
         <Collections/>
+        <Seller/>
     </div>
   )
 }

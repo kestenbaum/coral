@@ -8,7 +8,8 @@ interface data {
     action?: string,
     type: string,
     hot: boolean,
-    sale?: boolean
+    sale?: boolean,
+    seller: boolean
 }
 
 export const data: data[] = [
@@ -19,7 +20,8 @@ export const data: data[] = [
         type: 'Dress',
         price: '63.85',
         hot: false,
-        sale: false
+        sale: false,
+        seller: false
     },
     {
         id: 2,
@@ -28,7 +30,8 @@ export const data: data[] = [
         type: 'Bag',
         price: '130.00',
         hot: false,
-        sale: false
+        sale: false,
+        seller: true
     },
     {
         id: 3,
@@ -38,7 +41,8 @@ export const data: data[] = [
         price: '364.00',
         action: '155.00',
         hot: false,
-        sale: false
+        sale: false,
+        seller: false
     },
     {
         id: 4,
@@ -47,7 +51,8 @@ export const data: data[] = [
         type: 'Dress',
         price: '236.00',
         hot: false,
-        sale: true
+        sale: true,
+        seller: true
     },
     {
         id: 5,
@@ -57,7 +62,8 @@ export const data: data[] = [
         price: '220.00',
         action: '198.00',
         hot: true,
-        sale: false
+        sale: false,
+        seller: true
     },
     {
         id: 6,
@@ -66,7 +72,8 @@ export const data: data[] = [
         type: 'Dress',
         price: '120.50',
         hot: false,
-        sale: true
+        sale: true,
+        seller: true
     },
     {
         id: 7,
@@ -75,7 +82,8 @@ export const data: data[] = [
         type: 'Glasses',
         price: '160.00',
         hot: false,
-        sale: false
+        sale: false,
+        seller: false
     },
     {
         id: 8,
@@ -84,6 +92,7 @@ export const data: data[] = [
         type: 'Scarf',
         price: '53.00',
         hot: false,
-        sale: false
+        sale: false,
+        seller: false
     },
 ]
