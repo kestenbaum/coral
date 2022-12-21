@@ -7,6 +7,7 @@ import {Collections} from "./screens/Collections";
 import {Seller} from "./screens/Seller";
 import {Follow} from "./screens/Follow";
 import {Contact} from "./screens/Contact";
+import {Footer} from "./components/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Seller/>
         <Follow/>
         <Contact/>
+        <Footer/>
     </div>
   )
 }
