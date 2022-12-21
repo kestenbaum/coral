@@ -1,4 +1,4 @@
-import Header from './components/Header'
+import {Header} from './components/Header'
 import {Menu} from "./components/Menu";
 import {FirstScreen} from "./screens/FirstScreen";
 import {Brands} from "./screens/Brands";
