@@ -5,6 +5,7 @@ import {Brands} from "./screens/Brands";
 import {Products} from "./screens/Products";
 import {Collections} from "./screens/Collections";
 import {Seller} from "./screens/Seller";
+import {Follow} from "./screens/Follow";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Products/>
         <Collections/>
         <Seller/>
+        <Follow/>
     </div>
   )
 }
