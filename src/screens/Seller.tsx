@@ -22,7 +22,9 @@ export const Seller: FC = () => {
                 </div>
             </div>
             <div className='grid grid-cols-4 gap-4'>
-                {data.filter(el => el.seller).map(card =>
+                {data
+                    .filter(el => el.seller)
+                    .map(card =>
                     <CardProduct
                         key={card.id}
                         title={card.name}
