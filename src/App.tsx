@@ -3,6 +3,7 @@ import {Menu} from "./components/Menu";
 import {FirstScreen} from "./screens/FirstScreen";
 import {Brands} from "./screens/Brands";
 import {Products} from "./screens/Products";
+import {Collections} from "./screens/Collections";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <FirstScreen/>
         <Brands/>
         <Products/>
+        <Collections/>
     </div>
   )
 }
