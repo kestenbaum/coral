@@ -1,11 +1,12 @@
 import React, {FC} from 'react';
 import filterIcon from '../assets/filter.svg';
+import {data} from '../data/data'
 import {CardProduct} from "../components/CardProduct";
 
 
 export const Products: FC = () => {
     return (
-        <section className='max-w-[1280px] mx-auto px-4'>
+        <section className='max-w-[1280px] mx-auto px-4 py-[100px]'>
             <h2 className='w-full text-center text-black text-3xl font-bold font-sans'>New Products</h2>
             <div className='flex justify-between'>
                 <div className='flex gap-2'>
@@ -21,8 +22,17 @@ export const Products: FC = () => {
                     </span>
                 </div>
             </div>
-            <div>
-                <CardProduct/>
+            <div className='grid grid-cols-4 gap-4'>
+                {data.map(card =>
+                    <CardProduct
+                        key={card.id}
+                        title={card.name}
+                        img={card.img}
+                        type={card.type}
+                        price={card.price}
+                        hot={card.hot}
+                        sale={card.sale}
+                    />)}
             </div>
         </section>
     );
