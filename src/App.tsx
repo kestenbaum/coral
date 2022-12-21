@@ -2,6 +2,7 @@ import Header from './components/Header'
 import {Menu} from "./components/Menu";
 import {FirstScreen} from "./screens/FirstScreen";
 import {Brands} from "./screens/Brands";
+import {Products} from "./screens/Products";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Menu/>
         <FirstScreen/>
         <Brands/>
+        <Products/>
     </div>
   )
 }
