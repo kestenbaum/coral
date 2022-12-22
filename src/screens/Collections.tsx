@@ -11,7 +11,7 @@ export const Collections: FC = () => {
                 <div className='flex flex-col justify-center h-full gap-[56px] min-h-[776px]'>
                     <img src={logo} alt="logo" className='max-w-[191px] max-h-[81px]'/>
                     <h2 className='text-white max-w-[504px]'>Lustrous yet understated. The new evening wear collection exclusively offered at the reopened Giorgio Armani boutique in Los Angeles.</h2>
-                    <span className='flex items-center justify-center text-black bg-white px-[30px] py-[5px] cursor-pointer max-w-[250px]'>See Collection</span>
+                    <span className='flex items-center justify-center text-black bg-white px-[30px] py-[5px] cursor-pointer w-full md:max-w-[250px]'>See Collection</span>
                 </div>
             </div>
         </div>
