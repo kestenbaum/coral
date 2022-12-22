@@ -18,7 +18,7 @@ export const CardProduct: FC<CardProduct> = ({title, hot, price, img, type, sale
         <div className='block max-w-[300px] mb-2'>
             <div className='relative'>
                 <img src={img} alt="img-product"
-                     className='relative max-w-[312px] max-h-[400px] cursor-pointer z-10 hover:z-0'/>
+                     className='relative max-w-[260px] max-h-[400px] cursor-pointer z-10 hover:z-0'/>
                 <span
                     className={`${sale ? `block` : `hidden `} absolute top-[26px] left-[0] bg-[#1E2832] text-white z-20 px-[15px] py-[4px]`}>SALE</span>
                 <span
