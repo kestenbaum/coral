@@ -5,7 +5,7 @@ export const Footer: FC = () => {
     return (
         <footer className='bg-[#1E2832]'>
             <div className='max-w-[1280px] mx-auto px-4'>
-                <div className='flex justify-between items-center h-[52px]'>
+                <div className='flex flex-wrap flex-col gap-3 sm:flex-row justify-between items-center min-h-[52px]'>
                     <div className='text-white'>© 2022 Coral , Inc.</div>
                     <div>
                         <img src={icons} alt="icons"/>
