@@ -12,7 +12,7 @@ export const FirstScreen: FC = () => {
                     <h1 className='text-3xl text-black leading-10 font-sans'>Collections</h1>
                     <p className='text-2xl text-black leading-10 font-sans'>You can explore ans shop many differnt
                         collection from various barands here.</p>
-                    <MainButton children={'Sho P Now'}/>
+                    <MainButton children={'Sho P Now'} />
                     <img src={vector} alt="vector" className='hidden md:block absolute top-[-70%] left-[70%]'/>
                     <img src={vector} alt="vector" className='hidden md:block absolute top-[20%] right-[60%]'/>
                 </div>
