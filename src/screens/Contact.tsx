@@ -13,12 +13,12 @@ export const Contact: FC = () => {
     return (
         <section className='w-full bg-white'>
             <div className='max-w-[1280px] mx-auto px-4'>
-                <div className='grid grid-cols-4 gap-4 pt-[130px] pb-[90px]'>
+                <div className='flex flex-wrap gap-4 flex-col sm:flex-row justify-center sm:justify-between pt-[130px] pb-[90px]'>
                     <div className='flex flex-col gap-[30px]'>
                         <div className='max-w-[180px]'>
                             <Logo/>
                         </div>
-                        <span>Lorem ipsum dolor sit amet, consectetur adipiscingelit, sed do eiusmod tempor incididunt ut labore etdolore magna aliqua</span>
+                        <span className='max-w-[250px]'>Lorem ipsum dolor sit amet, consectetur adipiscingelit, sed do eiusmod tempor incididunt ut labore etdolore magna aliqua</span>
                         <div className='grid grid-cols-4'>
                             {social.map(social => <img key={social} src={social} alt="social-icon"/>)}
                         </div>
