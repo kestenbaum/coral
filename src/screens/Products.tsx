@@ -7,8 +7,8 @@ import {CardProduct} from "../components/CardProduct";
 export const Products: FC = () => {
     return (
         <section className='max-w-[1280px] mx-auto px-4 py-[100px]'>
-            <h2 className='w-full text-center text-black text-3xl font-bold font-sans'>New Products</h2>
-            <div className='flex justify-between items-center'>
+            <h2 className='w-full text-center text-black text-3xl font-bold font-sans mb-[20px]'>New Products</h2>
+            <div className='flex justify-between items-center mb-[20px]'>
                 <div className='flex gap-2'>
                     <span className='text-[#777777] text-base cursor-pointer'>All Products</span>
                     <span className='text-[#777777] text-base cursor-pointer'>T-Shirt</span>
@@ -20,7 +20,7 @@ export const Products: FC = () => {
                         <span className='text-white'>Filter</span>
                     </span>
             </div>
-            <div className='flex flex-wrap gap-2 justify-center sm:justify-between'>
+            <div className='flex flex-wrap gap-2 sm:gap-[20px] justify-center sm:justify-between'>
                 {data.map(card =>
                     <CardProduct
                         key={card.id}

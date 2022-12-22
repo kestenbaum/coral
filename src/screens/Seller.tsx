@@ -5,9 +5,9 @@ import {CardProduct} from "../components/CardProduct";
 
 export const Seller: FC = () => {
     return (
-        <section className='max-w-[1280px] mx-auto px-4 py-[100px]'>
-            <h2 className='w-full text-center text-black text-3xl font-bold font-sans'>Best Seller</h2>
-            <div className='flex justify-between items-center'>
+        <section className='max-w-[1280px] mx-auto px-4 py-[20px] sm:py-[100px]'>
+            <h2 className='w-full text-center text-black text-3xl font-bold font-sans mb-[20px]'>Best Seller</h2>
+            <div className='flex justify-between items-center mb-[20px]'>
                 <div className='flex gap-2'>
                     <span className='text-[#777777] text-base cursor-pointer'>All Products</span>
                     <span className='text-[#777777] text-base cursor-pointer'>T-Shirt</span>
