@@ -6,9 +6,9 @@ import vector from '../assets/Vectorbg.svg';
 export const FirstScreen: FC = () => {
     return (
         <div
-            className='flex flex-col flex-auto gap-4 max-w-[1280px] mx-auto px-4 pt-[130px] min-h-[100vh] md:flex-row items-center'>
+            className='flex flex-col justify-between flex-auto gap-4 max-w-[1280px] mx-auto px-4 pt-[130px] min-h-[100vh] md:flex-row items-center'>
             <div className='flex h-[100%]'>
-                <div className='relative flex items-start justify-center flex-col gap-4'>
+                <div className='relative flex items-start flex-col gap-4'>
                     <h1 className='text-3xl text-black leading-10 font-sans'>Collections</h1>
                     <p className='text-2xl text-black leading-10 font-sans'>You can explore ans shop many differnt
                         collection from various barands here.</p>
