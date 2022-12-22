@@ -22,7 +22,7 @@ export const Products: FC = () => {
                     </span>
                 </div>
             </div>
-            <div className='grid grid-cols-4 gap-4'>
+            <div className='flex flex-wrap gap-2 justify-center sm:justify-between'>
                 {data.map(card =>
                     <CardProduct
                         key={card.id}

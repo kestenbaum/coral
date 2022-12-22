@@ -15,7 +15,7 @@ interface CardProduct {
 
 export const CardProduct: FC<CardProduct> = ({title, hot, price, img, type, sale, action}) => {
     return (
-        <div className='block max-w-[312px] mb-2'>
+        <div className='block max-w-[300px] mb-2'>
             <div className='relative'>
                 <img src={img} alt="img-product"
                      className='relative max-w-[312px] max-h-[400px] cursor-pointer z-10 hover:z-0'/>
